@@ -1,1 +1,1 @@
-Dummy package for DynCal extensions. More info here
+Dummy package for DynCal extensions. More info [https://github.com/fravaccaro/harbour-dyncal/wiki/Extensions](here).
