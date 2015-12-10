@@ -1,6 +1,6 @@
 Name:          harbour-dyncal-it
 Version:       0.1.0
-Release:       1
+Release:       2
 Summary:       DynCal Italy
 Group:         System/Tools
 Vendor:        fravaccaro
