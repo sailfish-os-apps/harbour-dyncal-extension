@@ -1,6 +1,6 @@
 Name:          harbour-dyncal-ex
-Version:       0.2.0
-Release:       1
+Version:       0.2.1
+Release:       3
 Summary:       DynCal MYCOUNTRY
 Group:         System/Tools
 Vendor:        fravaccaro
@@ -19,11 +19,11 @@ Change Calendar icon accordingly with the day. It features MYCOUNTRY holidays.
 
 %post
 mkdir /usr/share/harbour-dyncal-ex/backup
-chmod +x /usr/share/harbour-dyncal-ex/run.sh
+chmod +x /usr/share/harbour-dyncal-ex/*.sh
 /usr/share/harbour-dyncal-ex/run.sh
 
 %preun
-cp /usr/share/harbour-dyncal-ex/backup/* /usr/share/harbour-dyncal/icons/
+/usr/share/harbour-dyncal-ex/restore.sh
 
 %postun
 if [ $1 = 0 ]; then

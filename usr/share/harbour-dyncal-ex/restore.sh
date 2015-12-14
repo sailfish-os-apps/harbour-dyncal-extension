@@ -17,8 +17,6 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-ls /usr/share/harbour-dyncal-ex/icons/ > /usr/share/harbour-dyncal-ex/backup.txt
-for file in $(</usr/share/harbour-dyncal-ex/backup.txt); do cp "/usr/share/harbour-dyncal/icons/$file" /usr/share/harbour-dyncal-ex/backup/; done
-cp /usr/share/harbour-dyncal-ex/icons/*.* /usr/share/harbour-dyncal/icons/
+cp /usr/share/harbour-dyncal-ex/backup/*.* /usr/share/harbour-dyncal/icons/
 
 exit 0
