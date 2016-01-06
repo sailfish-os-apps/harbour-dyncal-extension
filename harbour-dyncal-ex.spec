@@ -1,6 +1,6 @@
 Name:          harbour-dyncal-ex
-Version:       0.2.1
-Release:       3
+Version:       0.2.2
+Release:       1
 Summary:       DynCal MYCOUNTRY
 Group:         System/Tools
 Vendor:        fravaccaro
@@ -38,6 +38,9 @@ fi
 fi
 
 %changelog
+* Wed Jan 6 2016 0.2.2
+- Bugfix.
+
 * Mon Dec 14 2015 0.2
 - Backup handling improved.
 
